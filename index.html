@@ -7,17 +7,21 @@
     <title>ContaBlix: Tu estudio contable digital</title>
     <meta name="description" content="Servicios contables y fiscales para monotributistas y PyMEs." />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!--VER MEDIA QUERYS PARA DISPLAY (MOBILE, TABLET Y NOTEBOOK)-->
+
 </head>
 
-<body class="bg-slate-800 text-slate-100 box-border font-sans p-1">
+<body class="bg-slate-800 text-white box-border font-sans p-1">
     <header class="bg-gray-900 flex flex-wrap items-center justify-evenly">
-        <a class="logo m-2 ml-10 w-[90px] h-[90px]" href="index.html">
+        <a class="logo m-2 ml-10 w-[66px] h-[66px]" href="index.html">
             <img src="img/logo.png" alt="Logo de ContaBlix">
         </a>
         <h2 class="font-semibold">BIENVENIDO a tu estudio contable digital</h2>
 
         <nav class="m-2">
             <ul class="flex flex-wrap justify-center text-xl font-semibold">
+                <!--VER MENU CON ICONO DESPLEGABLE PARA MODO MOBILE-->
                 <li><a class="mx-4 p-2 hover:bg-gray-600 rounded-lg" href="#">Nosotros</a></li>
                 <li><a class="mx-4 p-2 hover:bg-gray-600 rounded-lg" href="#">Servicios</a></li>
                 <li><a class="mx-4 p-2 hover:bg-gray-600 rounded-lg" href="#">Contacto</a></li>
@@ -26,12 +30,29 @@
     </header>
 
     <main>
-        <section class="text-center">
-            <img class="opacity-33" src="img/portada.jpg" alt="portada">
-            <h1>Tu estudio contable digital</h1>
-            <p>Asesoría fiscal, contable y financiera para monotributistas y PyMEs.</p>
-            <br>
-            <a class="" href="#">Conocer servicios</a>
+        <section class="relative">
+            <img class="opacity-55 max-h-100 object-cover" src="img/portada.jpg" alt="portada" width="100%">
+            <article class="text-center text-white absolute inset-0 content-center">
+                <h1 class="text-3xl font-bold m-5">Tu estudio contable digital</h1>
+                <h2 class="text-xl font-semibold m-4">Asesoría fiscal, contable y financiera para monotributistas y
+                    PyMEs.</h2>
+                <br>
+                <a class="m-2 p-2 font-semibold bg-blue-600 hover:bg-blue-500 rounded-lg" href="#">Conocer nuestros
+                    servicios</a>
+                <br>
+        </section>
+
+        <section class="p-2">
+            <h2 class="text-xl font-bold text-center m-1">¿Quiénes somos?</h2>
+            <p class="text-gray-300 text-center p-2">
+                En <strong>ContaBlix</strong> transformamos la contabilidad tradicional en una experiencia 100%
+                digital.
+                Ofrecemos asesoría fiscal, contable y financiera diseñada para monotributistas y PyMEs que buscan
+                <strong>simplificar su gestión, ahorrar tiempo y tomar mejores decisiones</strong>.
+                <br>
+                <strong>Nuestro objetivo:</strong> que te enfoques en hacer crecer tu negocio, mientras nosotros nos ocupamos de los
+                números.
+            </p>
             <br>
         </section>
     </main>
