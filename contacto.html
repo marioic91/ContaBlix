@@ -35,27 +35,37 @@
 
     <main class="px-2 m-2">
         <h1 class="text-2xl font-semibold m-2">CONTACTO</h1>
-        <form class="text-left flex flex-col w-[40%]" action="" method="post">
-            <label class="m-2" for="nombre">NOMBRE
-                <input class="border-2 border-gray-100 " type="text" name="nombre" id="">
-            </label>
-            <label class="m-2" for="apellido">APELLIDO
-                <input class="border-2 border-gray-100 " type="text" name="apellido" id="">
-            </label>
-            <label class="m-2" for="dni">DNI
-                <input class="border-2 border-gray-100 " type="text" name="dni" id="">
-            </label>
-
-        </form>
-
-        <!-- APLICAR MAPA DE GOOGLE PARA LA UBICACION-->
+        <section class="flex flex-wrap items-center justify-evenly">
+            <form class="text-left flex flex-col md:px-11 lg:px-33" action="" method="post">
+                <label class="m-2" for="nombre">NOMBRE
+                    <input class="border-2 border-gray-100 w-64" type="text" name="nombre" id=""
+                        placeholder="INGRESE SU NOMBRE">
+                </label>
+                <label class="m-2" for="apellido">APELLIDO
+                    <input class="border-2 border-gray-100 w-62" type="text" name="apellido" id=""
+                        placeholder="INGRESE SU APELLIDO">
+                </label>
+                <label class="m-2" for="dni">DNI
+                    <input class="border-2 border-gray-100 w-33" type="text" name="dni" id=""
+                        placeholder="INGRESE SU DNI">
+                </label>
+                <label class="m-2" for="observaciones">OBSERVACIONES
+                    <br>
+                    <textarea class="border-2 border-gray-100 w-88 h-44" type="text" name="observaciones" id="">
+                    </textarea>
+                </label>
+            </form>
+            <article>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7015.236531583921!2d-65.78445102202755!3d-28.460921589025716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942428bc7b55286d%3A0xbfa3fe8868173fd4!2sAv.%20Belgrano%20533%2C%20K4700CUF%20San%20Fernando%20del%20Valle%20de%20Catamarca%2C%20Catamarca!5e0!3m2!1ses-419!2sar!4v1756569864321!5m2!1ses-419!2sar"
+                    width="400px" height="400px" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </article>
+        </section>
     </main>
 
     <footer class="text-gray-900 flex flex-wrap justify-evenly border-t-2 border-t-gray-400 mt-11 p-1">
         <section class="m-2">
-            <a class="text-white inline-block p-2 font-semibold bg-blue-600 hover:bg-blue-500 rounded-lg"
-                href="#">Contactanos
-            </a>
             <article class="">
                 <figure class="flex m-3 items-center"><img src="img/correo-electronico.png" alt="email" width="32px"
                         height="32px">
@@ -63,15 +73,15 @@
                 </figure>
                 <figure class="flex m-3 items-center"><img src="img/telefono-movil.png" alt="telefono" width="32px"
                         height="32px">
-                    <p class="mx-1">+54 9 (383) 4786245</p>
+                    <p class="mx-1">+54 9 (383) 4XXXXXX</p>
                 </figure>
                 <figure class="flex m-3 items-center"><img src="img/ubicacion.png" alt="telefono" width="32px"
                         height="32px">
-                    <p class="mx-1">Av. Belgrano 533 - Depto. 2B</p>
+                    <p class="mx-1">Av. Belgrano XXX</p>
                 </figure>
                 <figure class="flex m-3 items-center"><img src="img/reloj.png" alt="telefono" width="32px"
                         height="32px">
-                    <p class="mx-1">Lunes a viernes de 8 a 19h</p>
+                    <p class="mx-1">Lunes a viernes de 8 a 19hs</p>
                 </figure>
             </article>
         </section>
